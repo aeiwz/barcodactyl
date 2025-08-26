@@ -1,4 +1,4 @@
-# barcodactyl 🦖
+# barcodactyl
 
 Split ONT Dorado-barcoded reads into per-barcode files. Supports FASTQ(.gz), SAM, and BAM.
 
