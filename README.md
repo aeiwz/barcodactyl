@@ -1,2 +1,19 @@
-# barcodactyl
-Split ONT barcoded sequencing reads into per-barcode files. Supports FASTQ(.gz), SAM, and BAM input — outputs in the same format by default, or a user-selected one.
+# barcodactyl 🦖
+
+Split ONT Dorado-barcoded reads into per-barcode files. Supports FASTQ(.gz), SAM, and BAM.
+
+## Install
+```bash
+pip install barcodactyl
+```
+
+## Run
+```bash
+barcodactyl reads.fastq -o out/ --prefix run1_
+```
+
+## Tests
+```bash
+pip install -e .[test]
+pytest -q
+```
